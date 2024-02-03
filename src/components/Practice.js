@@ -1,13 +1,13 @@
-import React from "react";
-import Signup from "./Signup";
-import Login from "./Login";
+// import React from "react";
+// import Signup from "./Signup";
+// import Login from "./Login";
 
-function Practice() {
-  return (
-    <div>
-      hello
-    </div>
-  );
-}
+// function Practice() {
+//   return (
+//     <div>
+//       hello
+//     </div>
+//   );
+// }
 
-export default Practice;
+// export default Practice;

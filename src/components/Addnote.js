@@ -11,18 +11,18 @@ export default function Addnote() {
     tag: "",
   });
   const handleclick = (e) => {
-    console.log(e)
+    console.log(e);
     e.preventDefault();
     addnote(note.title, note.description, note.tag);
   };
   const change = (e) => {
-    console.log(e)
+    console.log(e);
     // console.log({...note})
     // console.log([e.target.name])
     // console.log(e.target.name)
     // console.log([e.target.value])
     // console.log({[e.target.name]:e.target.value})
-    setnote({...note, [e.target.name]:e.target.value})
+    setnote({ ...note, [e.target.name]: e.target.value });
   };
   return (
     <div className="container">

@@ -1,16 +1,16 @@
 import React from "react";
-import { useContext,useRef} from "react";
+import { useContext} from "react";
 import NoteContext from "../context/NoteContext";
 import Modals from "./Modals";
 
 export default function Notes(props) {
   const { state } = props;
-  const { deletenotes, editnote } = useContext(NoteContext);
+  const { deletenotes} = useContext(NoteContext);
   const deletehandleclick = () => {
     // console.log(title);
     deletenotes(props.state._id);
   };
-  const editref = useRef(null)
+  // const editref = useRef(null)
   const handleref = ()=>{
   }
 

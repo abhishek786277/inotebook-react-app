@@ -4,7 +4,7 @@ function About() {
   
   return (
     <>
-    <div>About</div>
+    <div> <h1>About</h1></div>
     </>
 
   )
